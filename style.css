@@ -1,0 +1,267 @@
+/* =========================
+   BODY
+========================= */
+body{
+    margin:0;
+    padding:0;
+    background:#050505;
+    color:white;
+    font-family:'Poppins',sans-serif;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+header{
+    background:#050505;
+}
+
+.logo{
+    color:#00d9ff;
+    font-size:30px;
+    font-weight:bold;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color:#00d9ff;
+}
+
+/* =========================
+   HERO
+========================= */
+.hero-card{
+    background:linear-gradient(
+        135deg,
+        #004d5f,
+        #00d9ff
+    );
+    color:white;
+    padding:40px;
+    border-radius:30px;
+    box-shadow:0 0 30px rgba(0,217,255,.3);
+}
+
+.hero-card h1{
+    color:white;
+}
+
+.hero-card h3{
+    color:#dffcff;
+}
+
+/* =========================
+   BUTTON
+========================= */
+.btn{
+    background:#00d9ff;
+    color:#050505;
+    padding:12px 25px;
+    border-radius:25px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#00b8d4;
+}
+
+/* =========================
+   SECTION TITLE
+========================= */
+.section-title{
+    text-align:center;
+    color:#00d9ff;
+    margin-bottom:40px;
+    font-size:40px;
+}
+
+/* =========================
+   ABOUT
+========================= */
+.about-box{
+    background:linear-gradient(
+        135deg,
+        #004d5f,
+        #00d9ff
+    );
+    padding:40px;
+    border-radius:30px;
+    .about-box{
+background:linear-gradient(135deg,#005f73,#00d9ff);
+padding:40px;
+border-radius:30px;
+}
+
+/* PENDIDIKAN */
+
+.education{
+background:#111;
+padding:20px;
+border-radius:15px;
+margin-top:15px;
+border-left:5px solid #00d9ff;
+}
+
+.education h4{
+color:#00d9ff;
+margin-bottom:5px;
+}
+
+.education p{
+margin:5px 0;
+}
+
+.education span{
+color:#ddd;
+font-size:14px;
+}
+
+.about-box ul{
+margin-top:10px;
+margin-left:20px;
+}
+
+.about-box li{
+margin-bottom:8px;
+}
+}
+
+.stat{
+    background:#0f172a;
+    border:1px solid #00d9ff;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+}
+
+.stat h2{
+    color:#00d9ff;
+}
+
+/* =========================
+   SKILLS
+========================= */
+.skill-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.skill-card{
+    background:#111;
+    border:1px solid rgba(0,217,255,.3);
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 20px rgba(0,217,255,.4);
+}
+
+/* LOGO SKILL */
+/* =========================
+   SKILL LOGO
+========================= */
+
+.skill-card{
+    background:#111;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+/* Paksa semua logo skill kecil */
+
+.skill-card img{
+    width:50px !important;
+    height:50px !important;
+    max-width:50px !important;
+    max-height:50px !important;
+    min-width:50px !important;
+    min-height:50px !important;
+
+    object-fit:contain !important;
+    display:block;
+    margin:0 auto 10px auto;
+}
+
+.skill-card p{
+    font-size:14px;
+    font-weight:bold;
+    margin:0;
+}
+}
+
+.skill-card p{
+    margin:0;
+    font-size:14px;
+    font-weight:600;
+    color:white;
+}
+
+/* =========================
+   PROJECT
+========================= */
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.project-card{
+    background:#111;
+    border:1px solid rgba(0,217,255,.3);
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.project-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.project-card h3{
+    color:#00d9ff;
+    padding:15px;
+}
+
+.project-card p{
+    padding:0 15px 15px;
+}
+
+/* =========================
+   CONTACT
+========================= */
+.contact-box{
+    background:linear-gradient(
+        135deg,
+        #004d5f,
+        #00d9ff
+    );
+    padding:40px;
+    border-radius:30px;
+    text-align:center;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer{
+    text-align:center;
+    padding:20px;
+    border-top:1px solid rgba(0,217,255,.3);
+}
